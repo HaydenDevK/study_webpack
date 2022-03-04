@@ -144,7 +144,7 @@ npx webpack --watch
 // 중지 방법 : ctrl+C
 ```
 
-#### 15. css
+#### 15. css 번들링 설정
 ```
 npm install css-loader style-loader --save-dev
 ```
