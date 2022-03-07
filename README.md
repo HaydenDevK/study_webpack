@@ -1,4 +1,4 @@
-# STUDY_Webpack
+# study_webpack
 
 ## 학습 목차
 
