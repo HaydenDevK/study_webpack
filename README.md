@@ -12,7 +12,13 @@
 
 #### 번들링(Bundling) : JS, CSS, 이미지 등의 파일을 묶어주는 작업
 
-#### 모듈 번들러(Module Bundler) : 여러 개의 파일들을 하나의 파일로 묶어주는 라이브러리 (ex. **Webpack**)
+#### 모듈 번들링(Module Bundling) : 수 많은 리소스들을 하나의 파일로 병합 및 압축해서 묶어주는 것
+
+#### 모듈 번들러(Module Bundler) : 모듈 번들링 라이브러리
+- 자바스크립트 파일도 본래 여러개였던 것을 하나로 압축해주기 때문에 웹페이지 성능 최적화 효과가 있다.
+- HTTP 요청 시에 같은 확장자끼리? 모아서 호출하기 때문에 퍼포먼스 개선 효과가 있다.
+- 유명한 모듈 번들러 : Webpack, Grunt, Gulp
+- 이 중 왜 웹팩을 사용해야할까? => Grunt, Gulp는 dependency graph에 대한 개념이 없지만, 웹팩은 모든 리소스(js,css,html,img, etc)에 대한 dependency graph를 생성하여 빌드시켜준다.
 
 ## Webpack 예제
 
